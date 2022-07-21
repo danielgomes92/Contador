@@ -40,6 +40,8 @@ button {
     border-radius: 50%;
     font-size: 30pt;
     font-weight: 600;
+    transition: 0.3s;
+    transition-property: background;
 }
 
 .contador {
@@ -51,4 +53,8 @@ button {
     align-items: center;
     margin: 0 20px;
     font-size: 20pt;
+}
+
+#contador button:hover{
+    background-color: #423d3d;
 }

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;600;700&family=Oleo+Script:wght@700&family=Poppins:wght@300;400;500;600;700;800;900&family=Press+Start+2P&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: center; */
+    background-color: #3fa355;
+    font-family: 'Merriweather Sans', sans-serif;
+    user-select: none;
+}
+
+.container{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+}
+
+.subtitulo h1{
+    font-size: 50pt;
+
+}
+
+.subtitulo p{
+    font-size: 22pt;
+    text-decoration: underline;
+    /* text-align: center; */
+}
+
+button {
+    height: 70px;
+    width: 70px;
+    color: #1d9c3d;
+    border: 2px solid #585f66;
+    border-radius: 50%;
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+.contador {
+    /* display: flex; */
+}
+
+#numero {
+    /* display: flex; */
+    align-items: center;
+    margin: 0 20px;
+    font-size: 20pt;
+}
